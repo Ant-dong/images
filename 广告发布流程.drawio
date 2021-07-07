@@ -1,1 +1,204 @@
-<mxfile host="app.diagrams.net" modified="2021-07-07T08:43:56.384Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="IOd6AUXCsSSnpe5zqYLx" version="14.8.4" type="github"><diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">7ZjLcpswFIafhmU6RhgbL2Pn0kU6yTSdSbOU4QTUCMQIEeM+fSUQYC5OcGrctNOVpV8XxP/pnMPYsFZhds1xHHxhHlADTbzMsC4MhEyELPmjlK1WTAcVis+Jp7VauCc/QYsTrabEg6QxUTBGBYmbosuiCFzR0DDnbNOc9sRo86kx9qEj3LuYdtUH4omgUB17UuufgfhB+WRzokdCXE7WQhJgj212JOvSsFacMVG0wmwFVLlX+lKsu9ozWh2MQySGLLCidHmV8YW7vZnE0e3DN4Svz/QuL5im+oUN6/x2/UNZWZxabEsr5AvEqpmG9IY8ASWR7C1j4CQEAVyOUC3f1dpSghFYamrczPuU4jgh63zbiVQ4uClPyAt8haTgn6ssjTzwdK8yL+8Izp4rHGpT/RbABWR77TEr0+V1BSYPyLdySnVXNSd9Ux3d3dTUK7bBDnGrFLG+aX61dQ1DNjSPA9igLps2kpiRSOTPtZeGfdHCwbgImM8iTHeBHN/Y/Tdrr9tTu2H2vM/srtfmYiyvrY7XHkliLNyg47kyg8gEcU6JH0lpzYRgYe4e5uJc5RzlvdxKahB5pbKmzH0up+lE5wwlAF4nTQ3xXyZLzH14bR7q58SBYiFjsplQe2zXS+/UTaz5npn9gMsdEpZyF/SiFrvqFO/HOf2HQ8du5qkqb70RO85YoWP/LyFZqxR8mBIy+6vjwD6khPSa3VNCZmN5Pe94zUGkPBpeQHaKBYtBDi09nAS5z2YxvFM2ICPiuzZdtR9V+9PCfndFKVLy25dpWEUZFDe/WWTQvHkFkDVrblEcdbQq4xzho6HnA0G6xrcVWtV5PCTSDgeLBoKd/SmwnaAd+fNh0QEr0dE1lniOAtY8EdihETs9Gdhps0KiduUbGWxZEU6dpM2TJenph4vlNnJ7fqQkLbv1vyfF9PpPKOvyFw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-07T12:01:57.004Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="1xKvOFa7aLfOeuckym0q" version="14.8.4" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="4979" dy="3232" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BySjJvubJEvUV4nn8snt-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="170" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="180" y="70" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-8" value="" style="endArrow=open;endFill=1;endSize=12;html=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="190" y="71" as="sourcePoint" />
+            <mxPoint x="345" y="71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-9" value="导购服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="10" width="100" height="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-17" value="设置经纬度&lt;br&gt;城市编号" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="BySjJvubJEvUV4nn8snt-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="120" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="55" y="120" />
+              <mxPoint x="120" y="120" />
+              <mxPoint x="120" y="140" />
+            </Array>
+            <mxPoint x="55" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-30" value="" style="endArrow=open;endFill=1;endSize=12;html=1;entryX=-0.1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="BySjJvubJEvUV4nn8snt-9" target="BySjJvubJEvUV4nn8snt-29">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="55" y="260" as="sourcePoint" />
+            <mxPoint x="215" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-12" value="站点服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="10" width="100" height="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BySjJvubJEvUV4nn8snt-12">
+          <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;entryX=0;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="BySjJvubJEvUV4nn8snt-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="355" y="80" as="sourcePoint" />
+            <mxPoint x="490" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-19" value="stationId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BySjJvubJEvUV4nn8snt-13">
+          <mxGeometry x="-0.0039" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-15" value="stationDetail" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0.967;entryY=0.392;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="110" as="sourcePoint" />
+            <mxPoint x="354.66999999999985" y="110.96000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-18" value="代金劵服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="10" width="100" height="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BySjJvubJEvUV4nn8snt-18">
+          <mxGeometry x="45" y="180" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-25" value="发送代金劵" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;exitX=0.988;exitY=0.128;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.998;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="BySjJvubJEvUV4nn8snt-22" parent="BySjJvubJEvUV4nn8snt-18" source="BySjJvubJEvUV4nn8snt-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="190" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="55" y="190" />
+              <mxPoint x="90" y="190" />
+              <mxPoint x="90" y="218" />
+              <mxPoint x="70" y="218" />
+            </Array>
+            <mxPoint x="70" y="209" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-21" value="" style="endArrow=open;endFill=1;endSize=12;html=1;entryX=-0.033;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="BySjJvubJEvUV4nn8snt-22">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="355" y="190" as="sourcePoint" />
+            <mxPoint x="515" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-23" value="新用户消息发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BySjJvubJEvUV4nn8snt-21">
+          <mxGeometry x="-0.2702" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-28" value="vip服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="10" width="100" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BySjJvubJEvUV4nn8snt-28">
+          <mxGeometry x="45" y="259" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-31" value="是否是vip" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0.9;entryY=0.694;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="320" as="sourcePoint" />
+            <mxPoint x="353.9999999999998" y="319.84000000000015" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-33" value="获取主页广告&lt;br&gt;发布信息(旁路&lt;br&gt;缓存)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="350" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="405" y="350" />
+              <mxPoint x="405" y="400" />
+            </Array>
+            <mxPoint x="355" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-35" value="地址围栏服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="980" y="10" width="100" height="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BySjJvubJEvUV4nn8snt-35">
+          <mxGeometry x="45" y="430" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-44" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=0.971;exitY=0.755;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="BySjJvubJEvUV4nn8snt-35">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-625.2900000000002" y="591.9050000000002" as="sourcePoint" />
+            <mxPoint x="256" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-45" value="uid、所有广告发布中的tag" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BySjJvubJEvUV4nn8snt-44">
+          <mxGeometry x="-0.1149" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-37" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=0.988;exitY=0.533;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="354.87999999999965" y="439.62300000000005" as="sourcePoint" />
+            <mxPoint x="1024" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-39" value="经纬度" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BySjJvubJEvUV4nn8snt-37">
+          <mxGeometry x="-0.1298" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-38" value="命中的广告位信息(geoAreaId)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="500" as="sourcePoint" />
+            <mxPoint x="360" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-41" value="根据&lt;span style=&quot;text-align: center&quot;&gt;geoAreaId&lt;br&gt;&lt;/span&gt;过滤主页广告发&lt;br&gt;布数据" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="530" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="395" y="530" />
+              <mxPoint x="395" y="570" />
+              <mxPoint x="355" y="570" />
+            </Array>
+            <mxPoint x="355" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-42" value="tag-api-service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="10" width="100" height="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-43" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BySjJvubJEvUV4nn8snt-42">
+          <mxGeometry x="45" y="590" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-46" value="该用户匹配的tag" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0.971;entryY=0.848;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="670" as="sourcePoint" />
+            <mxPoint x="354.7099999999998" y="669.8880000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-47" value="根据用户匹配的&lt;br&gt;tag过滤主页广&lt;br&gt;告发布数据" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="354.9999999999998" y="700" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="395" y="700" />
+              <mxPoint x="395" y="740" />
+              <mxPoint x="355" y="740" />
+            </Array>
+            <mxPoint x="354.9999999999998" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="345" y="50" width="10" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-53" value="&lt;span style=&quot;text-align: center&quot;&gt;针对同一个广告&lt;/span&gt;&lt;br style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;位中有多个广告，&lt;/span&gt;&lt;br style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;需要按照区域限&lt;br&gt;制的优先级来选&lt;br&gt;择优先级最高的广告&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="770" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="385" y="770" />
+              <mxPoint x="385" y="830" />
+              <mxPoint x="355" y="830" />
+            </Array>
+            <mxPoint x="355" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-54" value="优先级：&lt;br&gt;ALL&amp;lt;STATION_GROUP&amp;lt;FENCE=STATION" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF99;" vertex="1" parent="1">
+          <mxGeometry x="480" y="760" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BySjJvubJEvUV4nn8snt-54" target="BySjJvubJEvUV4nn8snt-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
