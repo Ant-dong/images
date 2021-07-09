@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-09T05:09:29.144Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="nwY2l844DL83wbUoXk_a" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-09T05:56:58.844Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="uUc6t424JCcc7jA0_bqp" version="14.8.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="3153" dy="2047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1113" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -733,6 +733,52 @@
             <mxPoint x="2865" y="4670" as="sourcePoint" />
             <mxPoint x="361" y="4670" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-189" value="算法服务&lt;br&gt;(search-go-service)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3260" y="10" width="120" height="6140" as="geometry" />
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-190" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="BySjJvubJEvUV4nn8snt-189">
+          <mxGeometry x="55" y="4743" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-191" value="" style="endArrow=open;endFill=1;endSize=12;html=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="370" y="4753" as="sourcePoint" />
+            <mxPoint x="3315" y="4753" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-192" value="获取商品算法标签" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BySjJvubJEvUV4nn8snt-191">
+          <mxGeometry x="-0.1824" y="16" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-193" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3310" y="4820" as="sourcePoint" />
+            <mxPoint x="360" y="4830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-194" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3315" y="4880" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-195" value="" style="endArrow=open;endFill=1;endSize=12;html=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="370" y="4880" as="sourcePoint" />
+            <mxPoint x="3315" y="4880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-196" value="获取买过的算法标签&lt;br&gt;（旁路缓存）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BySjJvubJEvUV4nn8snt-195">
+          <mxGeometry x="-0.1824" y="16" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-197" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3310" y="4947" as="sourcePoint" />
+            <mxPoint x="360" y="4957" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-198" value="opt(版本、apollo)" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#3333FF;fillColor=#FFFFFF;width=120;height=30;" vertex="1" parent="1">
+          <mxGeometry x="320" y="4710" width="3050" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
