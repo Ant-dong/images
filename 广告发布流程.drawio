@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-09T10:35:52.259Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="hjzAGQnmkhCvY8mRi9ls" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-09T10:51:16.036Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="uIYw901mFff6y_K6oCOR" version="14.8.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="15767" dy="10233" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4380" dy="3070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -535,16 +535,6 @@
         <mxCell id="BySjJvubJEvUV4nn8snt-130" value="opt(函数参数是否传递vip标签)" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#3333FF;fillColor=#FFFFFF;width=180;height=40;" vertex="1" parent="1">
           <mxGeometry x="320" y="3210" width="1020" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="BySjJvubJEvUV4nn8snt-134" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="2380" as="targetPoint" />
-            <mxPoint x="229.1421356237309" y="2380" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="260" y="2380" />
-              <mxPoint x="260" y="2380" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="BySjJvubJEvUV4nn8snt-139" value="stationId" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="360" y="80" as="sourcePoint" />
@@ -779,6 +769,9 @@
         </mxCell>
         <mxCell id="BySjJvubJEvUV4nn8snt-198" value="opt(版本、apollo)" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#3333FF;fillColor=#FFFFFF;width=120;height=30;" vertex="1" parent="1">
           <mxGeometry x="320" y="4710" width="3050" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="BySjJvubJEvUV4nn8snt-201" value="获取商品详情逻辑" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#FF0000;fillColor=#FFFFFF;width=120;height=20;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2370" width="3090" height="2640" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
