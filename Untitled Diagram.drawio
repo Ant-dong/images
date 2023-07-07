@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-07T02:41:11.125Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="xkhRz5d9S7HWg8xtn8Jz" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-07T06:45:12.533Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="yHV_IySFo80yAvuf-AMm" version="21.1.5" type="github">
   <diagram id="J9S4pAInpbBgbPKqcIev" name="Page-1">
-    <mxGraphModel dx="445" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-297" dy="342" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -232,6 +232,14 @@
         </mxCell>
         <mxCell id="zD2Na2t0oZL5t_VKpWng-70" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="zD2Na2t0oZL5t_VKpWng-68">
           <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zD2Na2t0oZL5t_VKpWng-77" value="模版信息&lt;br&gt;(adpt_module_*)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="112" width="160" height="340" as="geometry">
+            <mxRectangle x="1550" y="854.5" width="160" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zD2Na2t0oZL5t_VKpWng-78" value="模版ID(主键)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;模版名称&lt;br&gt;模版类型&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;上线时间&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;下线时间&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;活动状态&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;物料实验ID&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;资源位实验ID&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;是否干预&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;开始日期&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;结束日期&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;开始时间&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;结束时间&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;周期类型&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;优先级&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;上一次的资源位ID&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;是否删除&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;创建人&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;更新人&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;审核人&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;创建时间&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;更新时间" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="zD2Na2t0oZL5t_VKpWng-77">
+          <mxGeometry y="40" width="160" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
