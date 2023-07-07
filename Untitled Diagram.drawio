@@ -1,87 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T09:25:58.537Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="u444Hr_CfdJw2GDrm3Q3" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-07T02:40:13.823Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="j20C4kNV-YAdPvu6LPbO" version="21.1.5" type="github">
   <diagram id="J9S4pAInpbBgbPKqcIev" name="Page-1">
-    <mxGraphModel dx="295" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="233" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="zD2Na2t0oZL5t_VKpWng-9" value="广告基本信息" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="1340" y="1010" width="140" height="29" as="geometry">
-            <mxRectangle x="1340" y="1010" width="160" height="410" as="alternateBounds" />
+        <mxCell id="zD2Na2t0oZL5t_VKpWng-9" value="广告基本信息&lt;br&gt;(adpt_activity_*)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="819.5" width="160" height="410" as="geometry">
+            <mxRectangle x="1340" y="1010" width="140" height="29" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zD2Na2t0oZL5t_VKpWng-10" value="广告ID&lt;br&gt;资源位ID&lt;br&gt;活动名称&lt;br&gt;主标题&lt;br&gt;副标题&lt;br&gt;上线时间&lt;br&gt;下线时间&lt;br&gt;活动状态&lt;br&gt;物料实验ID&lt;br&gt;资源位实验ID&lt;br&gt;活动类型&lt;br&gt;是否干预&lt;br&gt;开始日期&lt;br&gt;结束日期&lt;br&gt;开始时间&lt;br&gt;结束时间&lt;br&gt;周期类型&lt;br&gt;优先级&lt;br&gt;上一次的资源位ID&lt;br&gt;是否删除&lt;br&gt;创建人&lt;br&gt;更新人&lt;br&gt;审核人&lt;br&gt;创建时间&lt;br&gt;更新时间" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="zD2Na2t0oZL5t_VKpWng-9">
           <mxGeometry y="40" width="160" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="zD2Na2t0oZL5t_VKpWng-11" value="标签信息" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="1250" y="880" width="120" height="29" as="geometry">
-            <mxRectangle x="350" y="870" width="160" height="250" as="alternateBounds" />
+        <mxCell id="zD2Na2t0oZL5t_VKpWng-11" value="标签信息&lt;br&gt;(adpt_activity_ext_*)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="500" width="160" height="250" as="geometry">
+            <mxRectangle x="1250" y="880" width="120" height="29" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zD2Na2t0oZL5t_VKpWng-12" value="主键ID&lt;br&gt;广告ID&lt;br&gt;标签形态&lt;br&gt;标签页面&lt;br&gt;标签位外部ID&lt;br&gt;标签位ID&lt;br&gt;标签位名称&lt;br&gt;标签ID&lt;br&gt;标签名称&lt;br&gt;标签类型&lt;br&gt;数据类型&lt;br&gt;样式ID&lt;br&gt;创建时间&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;更新时间" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="zD2Na2t0oZL5t_VKpWng-11">
           <mxGeometry y="40" width="160" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="zD2Na2t0oZL5t_VKpWng-13" value="话题榜信息" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="1480" y="880" width="120" height="29" as="geometry">
-            <mxRectangle x="525" y="860" width="160" height="180" as="alternateBounds" />
+        <mxCell id="zD2Na2t0oZL5t_VKpWng-13" value="话题榜信息&lt;br&gt;(adpt_activity_ext_topic_*)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="540" width="170" height="180" as="geometry">
+            <mxRectangle x="1480" y="880" width="120" height="29" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zD2Na2t0oZL5t_VKpWng-14" value="主键ID&lt;br&gt;广告ID&lt;br&gt;搜索词列表&lt;br&gt;卡片标题背景色&lt;br&gt;更多页背景色&lt;br&gt;更多页吸顶色&lt;br&gt;基础热度值&lt;br&gt;创建时间&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;更新时间" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="zD2Na2t0oZL5t_VKpWng-13">
-          <mxGeometry y="40" width="160" height="140" as="geometry" />
+          <mxGeometry y="40" width="170" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="zD2Na2t0oZL5t_VKpWng-15" value="活动、资源位关系" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="1150" y="1050" width="150" height="29" as="geometry">
-            <mxRectangle x="1605" y="1131" width="160" height="150" as="alternateBounds" />
+        <mxCell id="zD2Na2t0oZL5t_VKpWng-15" value="活动、资源位关系&lt;br&gt;(adpt_activity_resource_*)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1050" width="170" height="150" as="geometry">
+            <mxRectangle x="1150" y="1060" width="150" height="29" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zD2Na2t0oZL5t_VKpWng-16" value="主键ID&lt;br&gt;广告ID&lt;br&gt;AB分组&lt;br&gt;资源位ID&lt;br&gt;是否是默认分组&lt;br&gt;创建时间&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;更新时间" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="zD2Na2t0oZL5t_VKpWng-15">
-          <mxGeometry y="40" width="160" height="110" as="geometry" />
+          <mxGeometry y="40" width="170" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="zD2Na2t0oZL5t_VKpWng-17" value="广告、物料关系表" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="1330" y="1110" width="160" height="29" as="geometry">
-            <mxRectangle x="560" y="1169" width="160" height="151" as="alternateBounds" />
+        <mxCell id="zD2Na2t0oZL5t_VKpWng-17" value="广告、物料关系表&lt;br&gt;(adpt_activity_source_*)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="1280" width="160" height="150" as="geometry">
+            <mxRectangle x="1330" y="1110" width="160" height="29" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zD2Na2t0oZL5t_VKpWng-18" value="主键ID&lt;br&gt;广告ID&lt;br&gt;物料ID&lt;br&gt;AB分组&lt;br&gt;排序值&lt;br&gt;创建时间&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;更新时间" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="zD2Na2t0oZL5t_VKpWng-17">
-          <mxGeometry y="40" width="160" height="111" as="geometry" />
+          <mxGeometry y="40" width="160" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="zD2Na2t0oZL5t_VKpWng-62" value="物料信息" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="zD2Na2t0oZL5t_VKpWng-17">
-          <mxGeometry x="20" y="-10" width="120" height="29" as="geometry">
-            <mxRectangle x="40" y="1610" width="160" height="210" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zD2Na2t0oZL5t_VKpWng-63" value="主键ID&lt;br&gt;物料名称&lt;br&gt;资源位ID&lt;br&gt;物料json数据&lt;br&gt;样式&lt;br&gt;支持的活动类型&lt;br&gt;富文本类型&lt;br&gt;创建人&lt;br&gt;更新人&lt;br&gt;创建时间&lt;br&gt;更新时间" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="zD2Na2t0oZL5t_VKpWng-62">
-          <mxGeometry y="40" width="160" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="zD2Na2t0oZL5t_VKpWng-19" value="资源位信息" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="1165" y="1150" width="120" height="29" as="geometry">
-            <mxRectangle x="20" y="1290" width="160" height="150" as="alternateBounds" />
+        <mxCell id="zD2Na2t0oZL5t_VKpWng-19" value="资源位信息&lt;br&gt;(adpt_resource)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="1280" width="160" height="150" as="geometry">
+            <mxRectangle x="1170" y="1310" width="120" height="29" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zD2Na2t0oZL5t_VKpWng-20" value="主键ID&lt;br&gt;应用ID&lt;br&gt;外部资源ID&lt;br&gt;资源位描述&lt;br&gt;是否删除&lt;br&gt;创建时间&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;更新时间" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="zD2Na2t0oZL5t_VKpWng-19">
           <mxGeometry y="40" width="160" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="zD2Na2t0oZL5t_VKpWng-21" value="规则信息" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="1540" y="1010" width="160" height="29" as="geometry">
-            <mxRectangle x="1540" y="1010" width="160" height="340" as="alternateBounds" />
+        <mxCell id="zD2Na2t0oZL5t_VKpWng-21" value="规则信息&lt;br&gt;(adpt_rule_*)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="854.5" width="160" height="340" as="geometry">
+            <mxRectangle x="1550" y="854.5" width="160" height="29" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zD2Na2t0oZL5t_VKpWng-22" value="主键ID&lt;br&gt;广告ID&lt;br&gt;地理围栏ID&lt;br&gt;用户状态&lt;br&gt;vip标识&lt;br&gt;物料AB标识&lt;br&gt;资源位AB标识&lt;br&gt;投放AB标识&lt;br&gt;人群标识&lt;br&gt;投放区域类型&lt;br&gt;投放渠道&lt;br&gt;投放端&lt;br&gt;上一次的投放区域类型&lt;br&gt;投放AB异常是否展示&lt;br&gt;投放实验ID&lt;br&gt;投放实验命中组&lt;br&gt;关联角标投放标识&lt;br&gt;角标ID&lt;br&gt;创建时间&lt;br&gt;更新时间" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="zD2Na2t0oZL5t_VKpWng-21">
           <mxGeometry y="40" width="160" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="zD2Na2t0oZL5t_VKpWng-23" value="规则、运营区域关联信息" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="1790" y="880" width="200" height="29" as="geometry">
-            <mxRectangle x="460" y="1380" width="160" height="140" as="alternateBounds" />
+        <mxCell id="zD2Na2t0oZL5t_VKpWng-23" value="规则、运营区域关联信息&lt;br&gt;(adpt_rule_station_groups_*)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="770" width="190" height="139" as="geometry">
+            <mxRectangle x="1790" y="880" width="200" height="29" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zD2Na2t0oZL5t_VKpWng-24" value="主键ID&lt;br&gt;规则ID&lt;br&gt;运营区域ID&lt;br&gt;是否删除&lt;br&gt;创建时间&lt;br&gt;更新时间" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="zD2Na2t0oZL5t_VKpWng-23">
-          <mxGeometry y="40" width="160" height="100" as="geometry" />
+          <mxGeometry y="40" width="190" height="99" as="geometry" />
         </mxCell>
         <mxCell id="zD2Na2t0oZL5t_VKpWng-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="zD2Na2t0oZL5t_VKpWng-23" source="zD2Na2t0oZL5t_VKpWng-24" target="zD2Na2t0oZL5t_VKpWng-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zD2Na2t0oZL5t_VKpWng-27" value="规则、站点关联信息" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="1795" y="1140" width="170" height="29" as="geometry">
-            <mxRectangle x="1860" y="1080" width="160" height="140" as="alternateBounds" />
+        <mxCell id="zD2Na2t0oZL5t_VKpWng-27" value="规则、站点关联信息&lt;br&gt;(adpt_rule_station_*)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1795" y="1140" width="160" height="140" as="geometry">
+            <mxRectangle x="1795" y="1140" width="170" height="29" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zD2Na2t0oZL5t_VKpWng-28" value="主键ID&lt;br&gt;规则ID&lt;br&gt;站点ID&lt;br&gt;是否删除&lt;br&gt;创建时间&lt;br&gt;更新时间" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="zD2Na2t0oZL5t_VKpWng-27">
@@ -90,9 +82,9 @@
         <mxCell id="zD2Na2t0oZL5t_VKpWng-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="zD2Na2t0oZL5t_VKpWng-27" source="zD2Na2t0oZL5t_VKpWng-28" target="zD2Na2t0oZL5t_VKpWng-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zD2Na2t0oZL5t_VKpWng-30" value="规则、版本关联信息" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="1790" y="1010" width="180" height="29" as="geometry">
-            <mxRectangle x="1860" y="1010" width="160" height="166" as="alternateBounds" />
+        <mxCell id="zD2Na2t0oZL5t_VKpWng-30" value="规则、版本关联信息&lt;br&gt;(adpt_rule_version_*)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1795" y="941.5" width="160" height="166" as="geometry">
+            <mxRectangle x="1790" y="1010" width="180" height="29" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zD2Na2t0oZL5t_VKpWng-31" value="主键ID&lt;br&gt;规则ID&lt;br&gt;连接类型&lt;br&gt;比较类型&lt;br&gt;版本信息&lt;br&gt;是否删除&lt;br&gt;创建时间&lt;br&gt;更新时间" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="zD2Na2t0oZL5t_VKpWng-30">
@@ -101,9 +93,9 @@
         <mxCell id="zD2Na2t0oZL5t_VKpWng-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="zD2Na2t0oZL5t_VKpWng-30" source="zD2Na2t0oZL5t_VKpWng-31" target="zD2Na2t0oZL5t_VKpWng-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zD2Na2t0oZL5t_VKpWng-33" value="物料信息" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="1350" y="1209" width="120" height="29" as="geometry">
-            <mxRectangle x="40" y="1610" width="160" height="210" as="alternateBounds" />
+        <mxCell id="zD2Na2t0oZL5t_VKpWng-33" value="物料信息&lt;br&gt;(adpt_source_*)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="1370" width="160" height="210" as="geometry">
+            <mxRectangle x="1350" y="1260" width="120" height="29" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zD2Na2t0oZL5t_VKpWng-34" value="主键ID&lt;br&gt;物料名称&lt;br&gt;资源位ID&lt;br&gt;物料json数据&lt;br&gt;样式&lt;br&gt;支持的活动类型&lt;br&gt;富文本类型&lt;br&gt;创建人&lt;br&gt;更新人&lt;br&gt;创建时间&lt;br&gt;更新时间" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="zD2Na2t0oZL5t_VKpWng-33">
@@ -199,7 +191,7 @@
             <mxPoint y="21" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zD2Na2t0oZL5t_VKpWng-59" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="zD2Na2t0oZL5t_VKpWng-59" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zD2Na2t0oZL5t_VKpWng-17" target="zD2Na2t0oZL5t_VKpWng-33">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1409.74" y="1139" as="sourcePoint" />
             <mxPoint x="1409.74" y="1209" as="targetPoint" />
