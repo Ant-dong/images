@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-11T08:37:42.114Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="nT59K3CDyLxWeRbch74T" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-11T09:03:14.052Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="gLjgmsiXZvsOEdivGkh6" version="21.1.5" type="github">
   <diagram id="J9S4pAInpbBgbPKqcIev" name="Page-1">
-    <mxGraphModel dx="966" dy="995" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="763" dy="1027" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -250,7 +250,7 @@
             <mxRectangle x="1550" y="854.5" width="160" height="29" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zD2Na2t0oZL5t_VKpWng-85" value="ID(主键)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;模版ID&lt;br&gt;模版实验标识&lt;br&gt;模版实验ID&lt;br&gt;规则信息(投放规则json)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;是否删除&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;创建人&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;更新人&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;审核人&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;创建时间&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;更新时间" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="zD2Na2t0oZL5t_VKpWng-84">
+        <mxCell id="zD2Na2t0oZL5t_VKpWng-85" value="ID(主键)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;模版ID&lt;br&gt;模版实验标识&lt;br&gt;模版实验ID&lt;br&gt;规则ID&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;是否删除&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;创建人&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;更新人&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;审核人&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;创建时间&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;更新时间" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="zD2Na2t0oZL5t_VKpWng-84">
           <mxGeometry y="40" width="216" height="175" as="geometry" />
         </mxCell>
         <mxCell id="zD2Na2t0oZL5t_VKpWng-91" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="zD2Na2t0oZL5t_VKpWng-9" target="zD2Na2t0oZL5t_VKpWng-85">
