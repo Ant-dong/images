@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2023-07-12T02:32:05.547Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="9LNNTewGdCDVzdYdgHcx" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-12T02:47:05.748Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="mgRG_jtIWQUI9WUltoyS" version="21.6.1" type="github">
   <diagram id="J9S4pAInpbBgbPKqcIev" name="Page-1">
-    <mxGraphModel dx="790" dy="683" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="605" dy="365" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="zD2Na2t0oZL5t_VKpWng-9" value="广告基本信息&lt;br&gt;(adpt_activity_*)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
-          <mxGeometry x="1270" y="819.5" width="162" height="410.5" as="geometry">
+          <mxGeometry x="1270" y="819.5" width="162" height="424.5" as="geometry">
             <mxRectangle x="1340" y="1010" width="140" height="29" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zD2Na2t0oZL5t_VKpWng-10" value="广告ID&lt;br&gt;资源位ID&lt;br&gt;活动名称&lt;br&gt;主标题&lt;br&gt;副标题&lt;br&gt;上线时间&lt;br&gt;下线时间&lt;br&gt;活动状态&lt;br&gt;物料实验ID&lt;br&gt;资源位实验ID&lt;br&gt;活动类型&lt;br&gt;是否干预&lt;br&gt;开始日期&lt;br&gt;结束日期&lt;br&gt;开始时间&lt;br&gt;结束时间&lt;br&gt;周期类型&lt;br&gt;优先级&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;模版活动ID&lt;/font&gt;&lt;br&gt;上一次的资源位ID&lt;br&gt;是否删除&lt;br&gt;创建人&lt;br&gt;更新人&lt;br&gt;审核人&lt;br&gt;创建时间&lt;br&gt;更新时间" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="zD2Na2t0oZL5t_VKpWng-9" vertex="1">
-          <mxGeometry y="40" width="162" height="370.5" as="geometry" />
+          <mxGeometry y="40" width="162" height="384.5" as="geometry" />
         </mxCell>
         <mxCell id="zD2Na2t0oZL5t_VKpWng-11" value="标签信息&lt;br&gt;(adpt_activity_ext_*)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="863" y="734" width="160" height="250" as="geometry">
@@ -262,12 +262,12 @@
           <mxGeometry y="40" width="170" height="144" as="geometry" />
         </mxCell>
         <mxCell id="zD2Na2t0oZL5t_VKpWng-84" value="模版活动表&lt;br&gt;(adpt_template_activity_*)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="1349.5" y="527" width="216" height="215" as="geometry">
+          <mxGeometry x="1349.5" y="527" width="216.5" height="223" as="geometry">
             <mxRectangle x="1550" y="854.5" width="160" height="29" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zD2Na2t0oZL5t_VKpWng-85" value="ID(主键)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;模版ID&lt;br&gt;模版实验标识&lt;br&gt;模版实验ID&lt;br&gt;规则ID&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;是否删除&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;创建人&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;更新人&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;审核人&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;创建时间&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;更新时间" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="zD2Na2t0oZL5t_VKpWng-84" vertex="1">
-          <mxGeometry y="40" width="216" height="175" as="geometry" />
+        <mxCell id="zD2Na2t0oZL5t_VKpWng-85" value="ID(主键)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;模版ID&lt;br&gt;模版实验标识&lt;br&gt;模版实验ID&lt;br&gt;规则ID&lt;br&gt;模版活动状态&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;是否删除&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;创建人&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;更新人&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;审核人&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;创建时间&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;更新时间" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="zD2Na2t0oZL5t_VKpWng-84" vertex="1">
+          <mxGeometry y="40" width="216.5" height="183" as="geometry" />
         </mxCell>
         <mxCell id="zD2Na2t0oZL5t_VKpWng-94" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="zD2Na2t0oZL5t_VKpWng-84" target="zD2Na2t0oZL5t_VKpWng-77" edge="1">
           <mxGeometry relative="1" as="geometry">
